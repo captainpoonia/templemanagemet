@@ -1,0 +1,120 @@
+body{
+	margin: 0px;
+}
+#div1{
+	color:white;
+	margin: 0px;
+	padding:0px;
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline;
+}
+ul li {
+	margin:0px;
+	padding: 0px;
+	float: left;
+	height: 40px;
+	width: 120px;
+	color: black;
+	opacity: .99999;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	display: inline;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: orange;
+	color: black;
+}
+ul li :hover {
+	background-color:  #4d2600;
+	color: white;
+}
+ul li :hover a{
+	background-color:  #4d2600;
+	color: white;
+}
+ul li ul li a{
+	display: none;
+}
+ul li:hover ul li a{
+	display: block;
+}
+#div3{
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-color: orange;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.about{
+
+}
+
+.sticky + .about{
+  padding-top: 60px;
+}
+
+#div4{
+	text-align: center;
+	margin: 0px;
+	color: #613935; background-color: #faf4a2;
+}
+
+#div4 a{
+	text-decoration: none;
+	color: red;
+	background-color: yellow;
+	border:solid red 3px;
+text-align:center;
+border-radius: 50%;
+}
+#div4 h3 ,p{
+	margin: 0px;
+	padding: 6px; 	
+}
+
+#foot{
+	background-color:#8f2606;
+	color: #e0edc0;
+	padding: 20px;
+
+}
+table{
+	color: #e0edc0;
+}
+table a{
+	text-decoration: none;
+	color: #e0edc0;
+}
+table a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+.fa {
+  padding-left:5px; 
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+   border-radius: 50%;
+   color: white; 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
